@@ -1,0 +1,7 @@
+{
+  "name": "GameDesigner",
+  "id": "898731799184221862",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html"
+}

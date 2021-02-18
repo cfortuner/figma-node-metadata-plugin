@@ -1,0 +1,42 @@
+{
+  "name": "figma-game-designer",
+  "version": "1.0.0",
+  "description": "Your Figma Plugin",
+  "main": "code.js",
+  "scripts": {
+    "build": "webpack --mode development",
+    "build:prod": "webpack --mode production",
+    "dev": "npx webpack --mode=development --watch",
+    "zip": "zip -r figma-game-designer.zip . -x '*node_modules*'"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.17.1",
+    "@types/react": "^16.9.52",
+    "@types/react-dom": "^16.9.8",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.1.1",
+    "css-loader": "^5.0.0",
+    "file-loader": "^6.1.1",
+    "fork-ts-checker-webpack-plugin": "^5.2.0",
+    "html-webpack-inline-source-plugin": "1.0.0-beta.2",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^0.11.2",
+    "raw-loader": "^4.0.2",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^8.0.5",
+    "tsconfig-paths-webpack-plugin": "^3.3.0",
+    "typescript": "^4.0.3",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "deep-diff": "^1.0.2",
+    "lodash": "^4.17.19",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-json-editor-ajrm": "^2.5.13"
+  }
+}

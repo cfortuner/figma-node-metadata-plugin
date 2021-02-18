@@ -1,5 +1,5 @@
 {
-  "name": "figma-game-designer",
+  "name": "figma-node-meta-plugin",
   "version": "1.0.0",
   "description": "Your Figma Plugin",
   "main": "code.js",

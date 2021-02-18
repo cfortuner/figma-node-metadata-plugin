@@ -1,4 +1,4 @@
-# Figma-Game-Designer
+# Figma-Node-Metadata-Plugin
 
 A Figma plugin used to add json metadata to Figma Nodes.
 
